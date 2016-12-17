@@ -1,0 +1,121 @@
+body {
+  padding: 20px 0;
+  font: 300 14px "Lato", sans-serif;
+  color: #666756;
+  background: #fff;
+}
+
+.row{
+  width:100%
+}
+
+hr {
+  border-top: 4px solid #bbb;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+
+.project {
+  text-align: center;
+}
+
+.profile{
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.profiles {
+	margin-top: 10px;
+}
+
+.horizontal-row {
+	background:#bcbbbb;
+	height:6px;
+}
+
+.project-featured {
+	color: #bbb;
+}
+.project-title{
+  color:#666756;
+  letter-spacing: 1px;
+  text-transform:uppercase;
+}
+.project-link{
+  font-size: 1.2em;
+  color:#666756;
+}
+
+@media only screen and (max-width: 992px) {
+  .title-super {
+    text-align: center;
+    font-size: 60px;
+  }
+
+  .profiles {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .title-super {
+    text-align: center;
+  }
+
+  .profiles {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .title-super {
+    text-align: center;
+		font-size: 2.857em;
+  }
+
+  .profiles {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .title-super {
+    text-align: center;
+		font-size: 2.857em;
+  }
+
+  .profiles {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .title-super{
+    text-align: center;
+		font-size: 2.857em;
+  }
+
+  .profiles {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+   .footer {
+     margin-top: 40px;
+     font-size: 1.2em;
+     text-align: center;
+   }
